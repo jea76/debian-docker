@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:latest
 
 #Instala software necesario para continuar con lo demas
 RUN apt-get update && apt-get install -y dialog curl lsb-release gnupg2 apt-utils bash-completion sudo unzip vim make man

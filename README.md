@@ -1,6 +1,6 @@
 # Dockerfile debian-docker
 
-Imagen con tools y configuracion necesarias para trabajo:
+Imagen con tools y configuraciones necesarias,
 
   - gcloud
   - kubectl
