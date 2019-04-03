@@ -1,7 +1,7 @@
-FROM debian:latest
+FROM debian
 
 #Instala software necesario para continuar con lo demas
-RUN apt-get update && apt-get install -y dialog curl lsb-release gnupg2 apt-utils bash-completion sudo unzip vim make man
+RUN apt-get update && apt-get install -y dialog curl lsb-release gnupg2 apt-utils bash-completion sudo unzip vim make man telnet gawk
 
 #Crea el usuario, le da sudo, setea confs
 RUN adduser --shell /bin/bash julian && \
