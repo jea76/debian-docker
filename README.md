@@ -7,3 +7,4 @@ Imagen con tools y configuraciones necesarias,
   - terraform
   - git
   - bashrc configurado
+  - tag v1.1
